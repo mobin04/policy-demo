@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# DataNimbus Systems - Policy Demo Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides a production-grade, fictional Privacy Policy and Terms of Service page designed for testing deterministic legal diff engines.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The `PolicyDemoPage` component is specifically crafted to validate the following capabilities of a legal diff engine:
+- **Section Extraction:** Consistent `h1`, `h2`, and `h3` hierarchy for parsing.
+- **Structural Diffing:** Realistic nesting of clauses and sub-clauses.
+- **SHA-256 Hashing:** Stable content structure for section-level hashing.
+- **Fuzzy Matching:** Realistic section titles for testing title-matching algorithms.
+- **Risk Detection:** Naturally embedded high-risk legal keywords (e.g., "class action waiver", "arbitration", "biometric data").
+- **Performance:** Large content volume (~5,000 words) to test handling of complex documents.
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Fictional Company:** DataNimbus Systems (Cloud Analytics SaaS).
+- **Structured Content:** Pure HTML elements (`h1`, `h2`, `h3`, `p`, `ul`, `li`, `table`).
+- **Comprehensive Coverage:**
+  - Privacy Policy (Intro, Definitions, Collection, Use, Sharing, Retention, etc.)
+  - Terms of Service (Acceptance, Billing, Automatic Renewal, Refund Policy, etc.)
+  - Acceptable Use Policy
+- **Embedded Risk Keywords:** Realistic contractual language containing high-risk and medium-risk legal terms.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- `src/PolicyDemoPage.tsx`: The main React component containing the legal text.
+- `src/App.tsx`: Renders the demo page for immediate viewing.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Prerequisites
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js (v18+)
+- npm
+
+### Installation
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Start the development server:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+### Build
+
+Compile the project for production:
+
+```bash
+npm run build
+```
+
+## Content Requirements Reference
+
+- **Minimum Word Count:** ~5,000+ words.
+- **Styling:** Minimal inline styling for readability; uses standard HTML semantic tags.
+- **Legal Compliance:** Fictional content only. Do not use for real legal purposes.
