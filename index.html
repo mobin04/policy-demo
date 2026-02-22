@@ -8,7 +8,7 @@
   </head>
   <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; display: flex; flex-direction: column; min-height: 100vh;">
     
-    <!-- HEADER (UNWANTED NOISE) -->
+    <!-- HEADER -->
     <header style="background: #1a202c; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;">
       <div style="font-weight: bold; font-size: 1.5rem;">DataNimbus Cloud</div>
       <nav>
@@ -20,7 +20,7 @@
     </header>
 
     <div style="display: flex; flex: 1;">
-      <!-- SIDEBAR (UNWANTED NOISE) -->
+      <!-- SIDEBAR -->
       <aside style="width: 250px; background: #f7fafc; padding: 2rem; border-right: 1px solid #e2e8f0;">
         <h3 style="font-size: 0.8rem; color: #718096; text-transform: uppercase; margin-bottom: 1rem;">Resources</h3>
         <ul style="list-style: none; padding: 0;">
@@ -31,7 +31,7 @@
         </ul>
       </aside>
 
-      <!-- ACTUAL POLICY CONTENT (WANTED) -->
+      <!-- ACTUAL POLICY CONTENT -->
       <main style="flex: 1; padding: 40px; max-width: 900px; line-height: 1.6">
         <h1>Privacy Policy</h1>
         <p><strong>Last Updated: March 01, 2026</strong></p>
@@ -228,11 +228,12 @@
         <p>
           To exercise these rights, DataNimbus Systems provides the following administrative provisions:
         </p>
-        <ul>
-          <li><strong>Identity Verification:</strong> We must verify your identity before responding to high-security requests.</li>
-          <li><strong>One-Month Response:</strong> We have thirty (30) days to fulfill valid data requests.</li>
-          <li><strong>No-Fee Processing:</strong> Generally, no fee is charged for the first request in a 12-month cycle.</li>
-        </ul>
+        <!-- STRUCTURAL TAG SWAP (NOISE TEST) -->
+        <div style="margin-left: 20px; border-left: 2px solid #ccc; padding-left: 10px;">
+          <div style="display: block; margin-bottom: 8px;"><strong>Identity Verification:</strong> We must verify your identity before responding to high-security requests.</div>
+          <div style="display: block; margin-bottom: 8px;"><strong>One-Month Response:</strong> We have thirty (30) days to fulfill valid data requests.</div>
+          <div style="display: block; margin-bottom: 8px;"><strong>No-Fee Processing:</strong> Generally, no fee is charged for the first request in a 12-month cycle.</div>
+        </div>
 
         <h2>10. Changes Without Notice</h2>
         <p>
@@ -312,54 +313,54 @@
           The following table outlines our current pricing tiers. Prices are subject to change <strong>without notice</strong>.
         </p>
 
-        <table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%; margin-bottom: 20px;">
+        <!-- TABLE ATTRIBUTE NOISE + ONE DATA CHANGE -->
+        <table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%; margin-bottom: 20px;" class="premium-pricing-layout" data-version="2.0">
           <thead>
-            <tr>
-              <th>Plan Name</th>
-              <th>Price (Monthly)</th>
-              <th>Price (Annual)</th>
-              <th>Features Included</th>
-              <th>API Limit</th>
+            <tr class="header-row" style="background: #edf2f7;">
+              <th class="col-head" data-field="plan">Plan Name</th>
+              <th class="col-head" data-field="monthly">Price (Monthly)</th>
+              <th class="col-head" data-field="annual">Price (Annual)</th>
+              <th class="col-head" data-field="features">Features Included</th>
+              <th class="col-head" data-field="api">API Limit</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Starter Cloud</td>
-              <td>$35.00</td>
-              <td>$291.00</td>
-              <td>Basic Analytics, 1 User, Email Support</td>
-              <td>1,000 req/day</td>
+            <tr class="body-row" data-tier="starter">
+              <td class="cell-data" style="font-weight: 500;">Starter Cloud</td>
+              <td class="cell-data">$35.00</td>
+              <td class="cell-data">$291.00</td>
+              <td class="cell-data">Basic Analytics, 1 User, Email Support</td>
+              <td class="cell-data">1,000 req/day</td>
             </tr>
-            <tr>
-              <td>Pro Growth</td>
-              <td>$99.00</td>
-              <td>$990.00</td>
-              <td>Advanced Analytics, 5 Users, Priority Support</td>
-              <td>25,000 req/day</td>
+            <tr class="body-row" data-tier="growth">
+              <td class="cell-data" style="font-weight: 500;">Pro Growth</td>
+              <td class="cell-data">$99.00</td>
+              <td class="cell-data">$990.00</td>
+              <td class="cell-data">Advanced Analytics, 5 Users, Priority Support</td>
+              <td class="cell-data">30,000 req/day</td>
             </tr>
-            <tr>
-              <td>Ultimate Apex</td>
-              <td>$999.00</td>
-              <td>$9,990.00</td>
-              <td>Quantum Analysis, Dedicated Node, 24/7 Phone Support</td>
-              <td>1,000,000,000 req/day</td>
+            <tr class="body-row" data-tier="apex">
+              <td class="cell-data" style="font-weight: 500;">Ultimate Apex</td>
+              <td class="cell-data">$999.00</td>
+              <td class="cell-data">$9,990.00</td>
+              <td class="cell-data">Quantum Analysis, Dedicated Node, 24/7 Phone Support</td>
+              <td class="cell-data">1,000,000,000 req/day</td>
             </tr>
-            <tr>
-              <td>Enterprise Nexus</td>
-              <td>$499.00</td>
-              <td>$4,990.00</td>
-              <td>Full Suite, Unlimited Users, Dedicated Account Manager</td>
-              <td>5,000,000 req/day</td>
+            <tr class="body-row" data-tier="nexus">
+              <td class="cell-data" style="font-weight: 500;">Enterprise Nexus</td>
+              <td class="cell-data">$499.00</td>
+              <td class="cell-data">$4,990.00</td>
+              <td class="cell-data">Full Suite, Unlimited Users, Dedicated Account Manager</td>
+              <td class="cell-data">5,000,000 req/day</td>
             </tr>
-            <tr>
-              <td>Custom Solutions</td>
-              <td>Contact Sales</td>
-              <td>Contact Sales</td>
-              <td>On-premise deployment, Custom Integrations</td>
-              <td>Custom</td>
+            <tr class="body-row" data-tier="custom">
+              <td class="cell-data" style="font-weight: 500;">Custom Solutions</td>
+              <td class="cell-data">Contact Sales</td>
+              <td class="cell-data">Contact Sales</td>
+              <td class="cell-data">On-premise deployment, Custom Integrations</td>
+              <td class="cell-data">Custom</td>
             </tr>
           </tbody>
-        </thead>
         </table>
 
         <h2>5. Automatic Renewal</h2>
@@ -516,7 +517,7 @@
       </main>
     </div>
 
-    <!-- FOOTER (UNWANTED NOISE) -->
+    <!-- FOOTER -->
     <footer style="background: #2d3748; color: #a0aec0; padding: 3rem 2rem; text-align: center; border-top: 4px solid #3182ce;">
       <p>&copy; 2026 DataNimbus Systems International. All rights reserved.</p>
       <div style="margin-top: 1rem;">
@@ -526,7 +527,7 @@
       </div>
     </footer>
 
-    <!-- COOKIE BANNER (UNWANTED NOISE) -->
+    <!-- COOKIE BANNER -->
     <div style="position: fixed; bottom: 0; left: 0; right: 0; background: #ebf8ff; border-top: 1px solid #bee3f8; padding: 1rem; display: flex; justify-content: center; align-items: center; z-index: 1000;">
       <span style="margin-right: 2rem; color: #2c5282;">We use cookies to enhance your experience.</span>
       <button style="background: #2b6cb0; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 4px; cursor: pointer;">Allow All Cookies</button>
