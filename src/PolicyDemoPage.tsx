@@ -2,8 +2,8 @@ export default function PolicyDemoPage() {
   return (
     <div style={{ padding: "40px", maxWidth: "1200px", margin: "0 auto", fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>
       <h1>Privacy Policy</h1>
-      <p><strong>Last Updated: February 20, 2026</strong></p>
-      <p><strong>Effective Date: February 20, 2026</strong></p>
+      <p><strong>Last Updated: February 25, 2026</strong></p>
+      <p><strong>Effective Date: February 25, 2026</strong></p>
 
       <h2>1. Introduction</h2>
       <p>
@@ -228,7 +228,7 @@ export default function PolicyDemoPage() {
       <hr style={{ margin: "50px 0", border: "1px solid #ccc" }} />
 
       <h1>Terms of Service</h1>
-      <p><strong>Last Updated: February 20, 2026</strong></p>
+      <p><strong>Last Updated: February 25, 2026</strong></p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>
@@ -288,10 +288,10 @@ export default function PolicyDemoPage() {
           </tr>
           <tr>
             <td>Pro Growth</td>
-            <td>$99.00</td>
-            <td>$990.00</td>
+            <td>$109.00</td>
+            <td>$1,090.00</td>
             <td>Advanced Analytics, 5 Users, Priority Support</td>
-            <td>10,000 req/day</td>
+            <td>15,000 req/day</td>
           </tr>
           <tr>
             <td>Enterprise Nexus</td>
