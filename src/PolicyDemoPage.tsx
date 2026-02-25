@@ -161,7 +161,7 @@ export default function PolicyDemoPage() {
         <strong>Retention periods:</strong>
       </p>
       <ul>
-        <li><strong>Account Data:</strong> Retained for the duration of your active account plus 24 months thereafter to allow for account reactivation and audit trails.</li>
+        <li><strong>Account Data:</strong> Retained for the duration of your active account plus 36 months thereafter to allow for account reactivation and audit trails.</li>
         <li><strong>Financial Records:</strong> Retained for 7 years to comply with tax and accounting regulations.</li>
         <li><strong>Usage Logs:</strong> Retained for 12 months for security analysis and performance monitoring.</li>
         <li><strong>Marketing Data:</strong> Retained until you opt-out or withdraw consent, reviewed every 24 months.</li>
@@ -281,8 +281,8 @@ export default function PolicyDemoPage() {
         <tbody>
           <tr>
             <td>Starter Cloud</td>
-            <td>$29.00</td>
-            <td>$290.00</td>
+            <td>$35.00</td>
+            <td>$350.00</td>
             <td>Basic Analytics, 1 User, Email Support</td>
             <td>1,000 req/day</td>
           </tr>
@@ -459,7 +459,7 @@ export default function PolicyDemoPage() {
 
       <h2>18. Modifications in Our Sole Discretion</h2>
       <p>
-        We reserve the right, at our <strong>sole discretion</strong>, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+        We reserve the right, at our <strong>sole discretion</strong>, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 45 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
       </p>
       <p>
         By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.
