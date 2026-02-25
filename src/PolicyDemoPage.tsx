@@ -395,7 +395,7 @@ export default function PolicyDemoPage() {
         Whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.
       </p>
       <p>
-        To the maximum extent permitted by applicable law, DataNimbus Systems' total liability to you for any damages arising from or related to these Terms (for any cause whatsoever and regardless of the form of the action), will at all times be limited to the amount you paid to DataNimbus Systems in the twelve (12) months prior to the event giving rise to the claim. This <strong>limitation of liability</strong> constitutes an essential part of the agreement between the parties.
+        To the maximum extent permitted by applicable law, DataNimbus Systems' total liability to you for any damages arising from or related to these Terms (for any cause whatsoever and regardless of the form of the action), will at all times be limited to a maximum of one hundred U.S. dollars ($100.00). This <strong>limitation of liability</strong> constitutes an essential part of the agreement between the parties.
       </p>
 
       <h2>12. Arbitration Agreement</h2>
@@ -432,7 +432,7 @@ export default function PolicyDemoPage() {
 
       <h2>15. Governing Law and Jurisdiction</h2>
       <p>
-        These Terms shall be governed and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law provisions.
+        These Terms shall be governed and construed in accordance with the laws of the State of New York, United States, without regard to its conflict of law provisions.
       </p>
       <p>
         Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.
