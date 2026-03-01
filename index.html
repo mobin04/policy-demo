@@ -4,52 +4,68 @@
   <meta charset="UTF-8" />
   <title>DataNimbus Systems - Privacy Policy</title>
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header, footer { background: #333; color: white; padding: 20px; text-align: center; }
-    main { max-width: 800px; margin: 40px auto; padding: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
+    header { background: #343a40; color: #f8f9fa; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header .logo { font-size: 1.8rem; font-weight: bold; }
+    nav a { color: #adb5bd; margin-left: 1.5rem; text-decoration: none; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 3rem 2rem; background: #fff; box-shadow: 0 0 15px rgba(0,0,0,0.08); border-radius: 8px; }
+    h1 { border-bottom: 2px solid #007bff; padding-bottom: 0.5rem; }
+    h2 { border-bottom: 1px solid #dee2e6; padding-bottom: 0.3rem; margin-top: 2rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; background-color: #f2f2f2; }
+    th, td { border: 1px solid #dee2e6; padding: 0.75rem; text-align: left; }
+    footer { background-color: #343a40; color: #adb5bd; padding: 2rem; text-align: center; margin-top: 2rem; }
   </style>
 </head>
 <body>
 
 <header>
   <div class="logo">DataNimbus Systems</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Privacy</a>
+  </nav>
 </header>
 
-<main id="policy-container">
-  <h1 id="privacy-policy">Privacy Policy</h1>
-  <p><strong>Last Updated: March 1, 2026</strong></p>
+<main class="main-content" id="main">
+  <article class="policy-article container" id="policy-container">
+    <h1 id="privacy-policy">Privacy Policy</h1>
+    <p><strong>Last Updated: March 1, 2026</strong></p>
 
-  <section id="data-collection">
-    <h2>1. Data Collection</h2>
-    <p>We collect minimal personal data to provide our services, including email and basic usage metrics.</p>
-  </section>
+    <section id="data-collection">
+      <h2>1. Data Collection</h2>
+      <p>We collect minimal personal data to provide our services, including email and basic usage metrics.</p>
+    </section>
 
-  <section id="pricing">
-    <h2>2. Subscription Tiers</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Plan</th>
-          <th>Price (Monthly)</th>
-          <th>API Limit</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Starter</td>
-          <td>$19.00</td>
-          <td>5,000 req/day</td>
-        </tr>
-        <tr>
-          <td>Enterprise</td>
-          <td>$599.00</td>
-          <td>Unlimited</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+    <section id="pricing">
+      <h2>2. Subscription Tiers</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Price (Monthly)</th>
+            <th>API Limit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Starter</td>
+            <td>$19.00</td>
+            <td>5,000 req/day</td>
+          </tr>
+          <tr>
+            <td>Enterprise</td>
+            <td>$599.00</td>
+            <td>Unlimited</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact-us">
+      <h2>3. Contact Us</h2>
+      <p>For questions regarding our privacy practices, please contact us at privacy@datanimbus.io.</p>
+    </section>
+  </article>
 </main>
 
 <footer>
