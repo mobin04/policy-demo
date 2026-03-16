@@ -2,8 +2,8 @@ export default function PolicyDemoPage() {
   return (
     <div style={{ padding: "40px", maxWidth: "1200px", margin: "0 auto", fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>
       <h1>Privacy Policy</h1>
-      <p><strong>Last Updated: February 25, 2026</strong></p>
-      <p><strong>Effective Date: February 25, 2026</strong></p>
+      <p><strong>Last Updated: March 14, 2026</strong></p>
+      <p><strong>Effective Date: March 14, 2026</strong></p>
 
       <h2>1. Introduction</h2>
       <p>
@@ -13,7 +13,7 @@ export default function PolicyDemoPage() {
         This Privacy Policy governs the privacy policies and practices of our website, accessible at https://www.datanimbus.io, and our cloud analytics platform, subscription-based SaaS applications, enterprise API access, and automated reporting tools (collectively, the "Services"). By accessing or using our Services, you agree to the terms of this Privacy Policy. Please read this Privacy Policy carefully as it will help you make informed decisions about sharing your personal information with us.
       </p>
       <p>
-        In this Privacy Policy, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this Privacy Policy that you do not agree with, please discontinue use of our Sites and our Services immediately.
+        In this Privacy Policy, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We encourage you to read this carefully, as it contains important information. If there are any terms in this Privacy Policy that you do not agree with, please discontinue use of our Sites and our Services immediately.
       </p>
 
       <h2>2. Definitions</h2>
@@ -161,7 +161,7 @@ export default function PolicyDemoPage() {
         <strong>Retention periods:</strong>
       </p>
       <ul>
-        <li><strong>Account Data:</strong> Retained for the duration of your active account plus 36 months thereafter to allow for account reactivation and audit trails.</li>
+        <li><strong>Account Data:</strong> Retained for the duration of your active account plus 48 months thereafter to allow for account reactivation and audit trails.</li>
         <li><strong>Financial Records:</strong> Retained for 7 years to comply with tax and accounting regulations.</li>
         <li><strong>Usage Logs:</strong> Retained for 12 months for security analysis and performance monitoring.</li>
         <li><strong>Marketing Data:</strong> Retained until you opt-out or withdraw consent, reviewed every 24 months.</li>
